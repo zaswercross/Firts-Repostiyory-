@@ -1,10 +1,1 @@
-body {
-  background: #e8e8e8;
-  color: #444;
-  font-family: Arial;
-  font-size: 16px;
-}
-header {
-  background: #444;
-  color: #fff;
-}
+body{background:#e8e8e8;color:#444;font-family:Arial;font-size:16px}header{background:#444;color:#fff;padding:.5em;position:relative;overflow:hidden;box-shadow:0 5px 0 rgba(0,0,0,0.2);z-index:1;}header .logo{border-right:1px solid #22bce0;width:60px;float:left;}header .logo img{width:52px}header .titular{margin:0 60px 0 70px;}header .titular .publicar{background:#dd4f24;color:#fff;margin:-5px 1em 0 0;padding:.2em .5em;text-decoration:none;font-style:italic;text-shadow:1px 1px 0 #000;float:right}header .titular .filtro{font-weight:bold;font-size:14px;color:#22bce0;font-style:italic;text-decoration:none}header .titular .titulo{font-size:18px;font-weight:normal;margin:0;padding:0}header .usuario{position:absolute;top:10px;right:10px;}header .usuario .avatar{margin:0 1em 0 0;z-index:2;position:relative;}header .usuario .avatar img{width:50px;border-radius:50%}header .usuario .flechita{background:#dd4f24;color:#fff;display:block;text-align:right;position:absolute;width:50%;top:15px;padding:3px;right:0;z-index:0}nav{background:#22bce0;border-left:15px solid #fff;position:relative;}nav:before{content:"";border-bottom:20px solid transparent;border-top:20px solid transparent;border-left:7px solid #fff;position:absolute;left:0;top:0}nav .menu{height:40px;line-height:40px;margin:0;overflow-x:auto;text-align:left;white-space:nowrap;padding:0;}nav .menu li{display:inline-block;}nav .menu li a{color:#fff;display:inline-block;margin:0 .5em;padding:0 .2em;text-decoration:none}.posts{padding:.5em;}.posts .post{background:#fff}
